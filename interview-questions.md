@@ -9,7 +9,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What is `this` in JavaScript?
 
-  Your answer:
+  Your answer: `This` refers to an object calling upon itself. Developers can call upon values within an object while inside that same object. 
 
   Researched answer:
 
@@ -17,7 +17,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 2. What is React? Why would you use it?
 
-  Your answer:
+  Your answer: React is a js library that is used to develop the UI for end users
 
   Researched answer:
 
@@ -25,7 +25,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 3. Which lifecycle method is required in a React class component?
 
-  Your answer:
+  Your answer: The constructor() is required in React
 
   Researched answer:
 
@@ -33,7 +33,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. What is JSX? What is one notable difference between HTML and JSX?
 
-  Your answer:
+  Your answer: JSX = JS + HTML specifically designed for React. I believe the difference is that JSX 
 
   Researched answer:
 

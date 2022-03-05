@@ -15,6 +15,14 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
+describe("fibSequence", () => {
+    it("takes in a number (greater than 2) and returns an array that length containing the numbers of the Fibonacci sequence", () => {
+      expect(fibSequence(6)).toEqual([1, 1, 2, 3, 5, 8])
+    })
+  })
+
+  // Good failure! Hooray
+
 // Example input: 6
 // Expected output: [1, 1, 2, 3, 5, 8]
 
@@ -23,6 +31,13 @@
 
 
 // b) Create the function that makes the test pass.
+
+// PC:
+// 
+
+const fibSequence = (number) => {
+    return number 
+}
 
 
 // --------------------2) Create a function that takes in an array and returns a new array of only odd numbers sorted from least to greatest.
