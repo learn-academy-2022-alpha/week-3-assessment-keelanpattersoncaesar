@@ -27,15 +27,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: The constructor() is required in React
 
-  Researched answer: After looking it up, the only required lifecycle method required is the render() method. Constructor(), according to the React website, does NOT need to be implemented in all cases. An example of this case would be if you don't bind any methods in your app. 
+  Researched answer: After looking it up, the only required lifecycle method required is the render() method. Render is responsible for describing the view to be rendered to the browser window. Constructor(), according to the React website, does NOT need to be implemented in all cases. An example of this case would be if you don't bind any methods in your app. 
 
 
 
 4. What is JSX? What is one notable difference between HTML and JSX?
 
-  Your answer: JSX = JS + HTML specifically designed for React. I believe the difference is that JSX allows developers to write in both languages at the same time. 
+  Your answer: JSX = JS + HTML (JavaScript XML) specifically designed for React. I believe the difference is that JSX allows developers to write in both languages at the same time. 
 
-  Researched answer: One notable difference between HTML and JSX is that JSX demands the usage of fragments `<> </>` in order to compile. Also, all tags are self-closing tags in JSX; you can just write something like <br /> instead of <br></br>. Lastly, all attributes are written in camelCase for JSX.
+  Researched answer: One notable difference between HTML and JSX is that JSX demands the usage of fragments `<> </>` in order to compile. Also, all React components can use self-closing tags in JSX; you can just write something like <br /> instead of <br></br>. Lastly, all attributes are written in camelCase for JSX.
 
 
 
@@ -43,7 +43,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: Yarn is used when building React applications. It lets developers install and run their code in the browser. 
 
-  Researched answer: Yarn is a package manager for code. A package manager is basically a collection of programs that are in charge of installing and configuring programs so the developer doesn't have to. This gives everyone the same build to work on.
+  Researched answer: Yarn is a package manager for code. Made by Facebook in 2016. A package manager is basically a collection of programs that are in charge of installing and configuring programs so the developer doesn't have to. This gives everyone the same build to work on.
 
 
 
@@ -64,4 +64,4 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. Object-oriented programming: A type of programming that places an emphasis on objects and classes. Relies on the idea that code can (and should be) reused over and over again to achieve similar results. No need to reinvent the wheel.
 
-5. Ruby: A high level language where everything is an object. Made in Japan by Yukihiro Matsumoto. In Ruby, everything is seen as an object. There is little punctuation in Ruby; there are more 'plain english' keywords.
+5. Ruby: A high level language where (most) everything is an object. Made in Japan by Yukihiro Matsumoto. There is little punctuation in Ruby; there are more 'plain english' keywords.
